@@ -1,0 +1,191 @@
+@media only screen and (max-width:830px) {
+
+    /* Kolory */
+    /*
+DUSTY:             hsl(332, 7%, 55%);
+LAVENDAR:          hsl(221, 15%, 51%);
+OVERCAST:          hsl(210, 9%, 60%);
+PAPER:             hsl(0, 0%, 84%);
+WHITE:             hsl(0, 0%, 100%);
+BACKGROUND:        hsl(0, 0%, 78%);
+MAIN:              hsl(44, 71%, 55%);
+*/
+    /* Czcionki */
+    /*
+w3-large	Specifies a font size of 18 pixels
+w3-xlarge	Specifies a font size of 24 pixels
+w3-xxlarge	Specifies a font size of 32 pixels
+w3-xxxlarge	Specifies a font size of 48 pixels
+w3-jumbo	Specifies a font size of 64 pixels
+*/
+    /*  LAYOUT */
+    body {
+        font-family: Oswald, sans-serif;
+        overflow-x: hidden;
+    }
+
+    header {
+        flex: 1 1 100%;
+        height: 100px;
+        background: hsl(221, 15%, 51%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .triangle1 {
+        width: 0;
+        height: 0;
+        border-top: 100px solid hsl(221, 15%, 51%);
+        border-right: 100vw solid transparent;
+        background: hsl(0, 0%, 78%);
+        position: relative;
+        z-index: 2;
+    }
+    #section1 {
+        flex: 1 1 100%;
+        background: hsl(0, 0%, 78%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    .triangle2 {
+        z-index: 2;
+        margin-top: -100px;
+        width: 0;
+        height: 0;
+        border-bottom: 100px solid hsl(221, 15%, 51%);
+        border-left: 100vw solid transparent;
+        background: transparent;
+        position: relative;
+    }
+    .info {
+        background: hsl(221, 15%, 51%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 5;
+        position: relative;
+    }
+    #section2 {
+        display: flex;
+        background: hsl(0, 0%, 78%);
+        flex-wrap: wrap;
+    }
+    .col50 {
+        flex: 1 1 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        z-index: 3;
+    }
+      .left {
+        display: flex;
+    }
+    .right {
+        display: flex;
+    }
+    .triangle3 {
+        width: 0;
+        height: 0;
+        border-top: 100px solid hsl(221, 15%, 51%);
+        border-left: 100vw solid transparent;
+        background: transparent;
+        position: relative;
+        z-index: 2;
+        background: hsl(0, 0%, 78%);
+    }
+    .triangle4 {
+        width: 0;
+        height: 0;
+        border-bottom: 100px solid hsl(221, 15%, 51%);
+        border-right: 100vw solid transparent;
+        background: hsl(0, 0%, 78%);
+        position: relative;
+        z-index: 2;
+        margin-top: 0px;
+    }
+    #section3 {
+        display: flex;
+        flex: 1 1 100%;
+        justify-content: center;
+        align-items: center;
+        background: hsl(0, 0%, 78%);
+    }
+    .show {
+        z-index: 3;
+    }
+    footer {
+        height: 100px;
+        background: hsl(221, 15%, 51%);
+        display: flex;
+        flex: 1 1 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    /* STYLE */
+    h1 {
+        color: hsl(44, 71%, 55%);
+        font-size: 36px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .hero {
+        z-index: 1;
+        position: relative;
+        width: 100%;
+    }
+    h2 {
+        font-size: 18px;
+        color: hsl(44, 71%, 55%);
+        width: 95%;
+        text-align: center;
+    }
+    .info>p {
+        font-size: 14px;
+        width: 80%;
+        padding-top: 10px;
+        color: hsl(0, 0%, 84%);
+        line-height: 110%;
+        text-align: center;
+    }
+    h3 {
+        font-size: 18px;
+        color: black;
+        font-weight: 600;
+        padding-top: 20px;
+    }
+    .col50>p {
+        font-size: 14px;
+        width: 95%;
+        padding-top: 20px;
+        color: black;
+        line-height: 110%;
+        font-weight: 400;
+    }
+    .paint {
+        z-index: 2;
+        box-shadow: 8px 8px 6px 2px hsl(0, 0%, 20%);
+        width: 90%;
+    }
+    li {
+        padding: 5px;
+        font-size: 18px;
+        list-style: square;
+        width: 100%;
+    }
+    footer>p {
+        font-size: 18px;
+        padding-top: 10px;
+        color: hsl(0, 0%, 84%);
+        text-align: center;
+    }
+    a {
+        font-size: 24px;
+        color: hsl(44, 71%, 55%);
+    }
+
+}
